@@ -35,7 +35,7 @@ The project is organized into several modules, each responsible for a specific p
 - **Complexity**: O(n log n)
 - **Description**: The algorithm constructs the convex hull by separately building the upper and lower hulls and then merging them.
 
-<img src="gif/upper_and_lower_hull.gif" width="700">
+<img src="gif/lower_upper_hull.gif" width="700">
 
 ### 3. Quickhull Algorithm
 - **File**: `quickhull.ipynb`
