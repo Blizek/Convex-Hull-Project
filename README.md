@@ -56,7 +56,7 @@ The project is organized into several modules, each responsible for a specific p
 - **Complexity**: O(n log h), where h is the number of points in the convex hull
 - **Description**: Combines the advantages of Graham's scan and Jarvis by dividing the points into smaller subsets and using a wrapping approach to construct the hull.
 
-<img src="gif/chan" width="700">
+<img src="gif/chan.gif" width="700">
 
 ### 6. Graham's Scan
 - **File**: `graham.ipynb`
