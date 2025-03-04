@@ -28,49 +28,49 @@ The project is organized into several modules, each responsible for a specific p
 - **Complexity**: O(n log n)
 - **Description**: The algorithm builds the convex hull incrementally by adding points one by one and updating the hull at each step.
 
-<img src="gif/incremental.gif" width="1000">
+<img src="gif/incremental.gif" width="700">
 
 ### 2. Upper and Lower Hull Algorithm
 - **File**: `lower-upper-hull.ipynb`
 - **Complexity**: O(n log n)
 - **Description**: The algorithm constructs the convex hull by separately building the upper and lower hulls and then merging them.
 
-<img src="gif/upper_and_lower_hull.gif" width="1000">
+<img src="gif/upper_and_lower_hull.gif" width="700">
 
 ### 3. Quickhull Algorithm
 - **File**: `quickhull.ipynb`
 - **Complexity**: O(n log n) average case, O(n²) worst case
 - **Description**: A divide-and-conquer algorithm that recursively constructs the convex hull by finding the farthest points from a base line.
 
-<img src="gif/quickhull_visualization.gif" width="1000">
+<img src="gif/quickhull_visualization.gif" width="700">
 
 ### 4. Divide and Conquer Algorithm
 - **File**: `divide-and-conquer.ipynb`
 - **Complexity**: O(n log n)
 - **Description**: The algorithm recursively divides the set of points into smaller subsets, computes their convex hulls, and then merges them.
 
-<img src="gif/divide_and_conquer_hull.gif" width="1000">
+<img src="gif/divide_and_conquer_hull.gif" width="700">
 
 ### 5. Chan's Algorithm
 - **File**: `chan.ipynb`
 - **Complexity**: O(n log h), where h is the number of points in the convex hull
 - **Description**: Combines the advantages of Graham's scan and Jarvis by dividing the points into smaller subsets and using a wrapping approach to construct the hull.
 
-<img src="gif/chan" width="1000">
+<img src="gif/chan" width="700">
 
 ### 6. Graham's Scan
 - **File**: `graham.ipynb`
 - **Complexity**: O(n log n)
 - **Description**: The algorithm sorts the points by their polar angle and then iteratively constructs the convex hull using a stack.
 
-<img src="gif/graham.gif" width="1000">
+<img src="gif/graham.gif" width="700">
 
 ### 7. Gift Wrapping Algorithm
 - **File**: `jarvis.ipynb`
 - **Complexity**: O(nh), where h is the number of points in the convex hull
 - **Description**: The algorithm iteratively constructs the convex hull by finding the next point with the smallest polar angle relative to the current point.
 
-<img src="gif/jarvis.gif" width="1000">
+<img src="gif/jarvis.gif" width="700">
 
 ## Usage
 To run the algorithms, follow these steps:
