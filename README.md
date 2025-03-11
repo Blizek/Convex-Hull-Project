@@ -100,5 +100,5 @@ The performance of each algorithm was measured in terms of execution time for di
 The project demonstrates that the choice of algorithm for computing the convex hull should be guided by the specific characteristics of the input data. While **Quickhull** and **Chan's Algorithm** showed superior performance in certain scenarios, other algorithms like **Graham's Scan** and the **Divide and Conquer Algorithm** provided more consistent results across different test cases.
 
 ## Authors
-- **Mateusz Wójcik**
-- **Błażej Naziemiec**
+- **[Mateusz Wójcik](https://github.com/wmaqk1)**
+- **[Błażej Naziemiec](https://github.com/Blizek)**
